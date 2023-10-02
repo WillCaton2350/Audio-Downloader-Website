@@ -3,3 +3,22 @@
 - Possibly torrent plugins to download for free
 - Download netflix movies and give them away for free on this website and make money from ads
 - Phishing website? 
+- Replace the jp-play-bar, jp-progress and jp-seek-bar Ads
+ * Static and Dynamic 
+- Put the about page, terms and conditions, contact info/page and social medias in the footer
+ * Contact page for the data models
+  ** Possibly an SQL Workbench backend
+- Put Mp3 Files in the download link and the audio tag for listener play back.
+ * Cut audio loops to around 10 seconds 
+  ** place the full Wav file in the download link 
+   *** I ran the media root in the settings.py file and mapped the javascript to the html audio tag to the directory with the wav file.
+    (I also tried putting the javascript in a script tag at the bottom of the html page. Also directly under the audio html tag)
+    **** The wav file still isn't playing. 
+     ***** Maybe I can recheck the MEDIA_ROOT and MEDIA_URL in the settings.py file and make sure it is correct
+
+
+{Tests}
+
+- Run Nav Tests 
+ * nav_iterator functions
+- Run download_link Tests
