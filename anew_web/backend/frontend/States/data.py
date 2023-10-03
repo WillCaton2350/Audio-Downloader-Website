@@ -1,0 +1,5 @@
+localhost = 'http://127.0.0.1:8000/'
+drums_nav_xpath = '/html/body/div/nav/ul/li[1]/a'
+bass_nav_xpath = '/html/body/div/nav/ul/li[2]/a'
+vox_nav_xpath = '/html/body/div/nav/ul/li[3]/a'
+title_nav_xpath = '/html/body/div/h1/a'

@@ -4,36 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('static/images/pexels-kai-pilger-1128440.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color:transparent;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.5;
+        }
+    </style>
     <title>Home</title>
 </head>
 <body>
-    <h1 class="main-text">Movies On Demand</h1>
+<div class="main-container">
+    <h1 class="main-text">
+        <a class="loop-title-drums" href="index.html">Free Music Loops</a>
+    </h1>
     <nav class="navbar">
         <ul class="nav-container">
             <li class="nav-list">
-                <a href="index.html" class="nav-item">Home</a>
+                <a href="drums.html" class="nav-item">Drums</a>
             </li>
             <li class="nav-list">
-                <a href="about.html" class="nav-item">About</a>
+                <a href="bass.html" class="nav-item">Bass</a>
             </li>
             <li class="nav-list">
-                <a href="contact.html" class="nav-item">Contact</a>
+                <a href="vox.html" class="nav-item">Vox</a>
             </li>
         </ul>
     </nav>
-
-
-        <h2 class="download-text">Download Links</h2>
-        <ul class="link-set">
-            <li class="links">
-                <div>Movie Title: <a href="/" class="link" download>Download Link 1</a></div>
-                <span class="spacer"></span>
-                <div>Movie Title: <a href="/" class="link" download>Download Link 2</a></div>
-                <span class="spacer"></span>
-                <div>Movie Title: <a href="/" class="link" download>Download Link 3</a></div>
-                <span class="spacer"></span>
-                <div>Movie Title: <a href="/" class="link" download>Download Link 4</a></div>
-            </li>
-        </ul>
+</div>
 </body>
 </html>
