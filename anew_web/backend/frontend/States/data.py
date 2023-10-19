@@ -1,0 +1,12 @@
+localhost = 'http://127.0.0.1:8000'
+drums_nav_xpath = '/html/body/div/nav/ul/li[1]/a'
+bass_nav_xpath = '/html/body/div/nav/ul/li[2]/a'
+vox_nav_xpath = '/html/body/div/nav/ul/li[3]/a'
+title_nav_xpath = '/html/body/div/h1/a'
+geckoDriverPath = '/Users/administrator/Desktop/Projects/djangoProjects/anew_web/backend/frontend/Driver/geckodriver'
+
+drums_nav2 = 'li.list-item2:nth-child(1) > a:nth-child(1)'
+bass_nav2 = 'li.list-item2:nth-child(2) > a:nth-child(1)'
+vox_nav2 = 'li.list-item2:nth-child(3) > a:nth-child(1)'
+about_nav2 = 'li.list-item2:nth-child(4) > a:nth-child(1)'
+policy_nav2 = 'li.list-item2:nth-child(5) > a:nth-child(1)'
