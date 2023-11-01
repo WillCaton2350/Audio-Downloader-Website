@@ -3,3 +3,139 @@
 - Possibly torrent plugins to download for free
 - Download netflix movies and give them away for free on this website and make money from ads
 - Phishing website? 
+- Replace the jp-play-bar, jp-progress and jp-seek-bar Ads
+ * Static and Dynamic 
+- Put the about page, terms and conditions, contact info/page and social medias in the footer
+ * Contact page for the data models
+  ** Possibly an SQL Workbench backend
+- Put Mp3 Files in the download link and the audio tag for listener play back.
+ * Cut audio loops to around 10 seconds 
+  ** place the full Wav file in the download link 
+   *** I ran the media root in the settings.py file and mapped the javascript to the html audio tag to the directory with the wav file.
+    (I also tried putting the javascript in a script tag at the bottom of the html page. Also directly under the audio html tag)
+    **** The wav file still isn't playing. 
+     ***** Maybe I can recheck the MEDIA_ROOT and MEDIA_URL in the settings.py file and make sure it is correct
+- Change the name of looperman.css
+- Write the media queries
+✅ - Everything from pandas down needs a download src="/path..."
+- Fill Bass and Vox Pages
+
+- Possibly make this an artists hub 
+website and have the music marketing 
+bot as a feature that branches off the 
+Free Muaic Loops website like the Volume Control feature.
+
+{$Website / Company Expansion}
+- I need to add the volume control feature to the website
+- I need to re do the website so that it is split into two categories
+ + Cat.1 == Music Production loops
+ + Cat.2 == Volume Control Feature / google chrome extension
+ * Separate wing of the company
+  + Cat.3 == Testing Team. (We test apps for clients)
+
+{$Company Layout}
+- 3 Wings
+- We Are a tech company that prioritizes audio and offers software testing consultations 
+* Front
+ + Music Production loops
+* Mid
+ + Volume Control Google Chrome Extension for Bandlab
+* Back
+ (a)
+ + UserTesting, UserLytics, PlaybookUX, UserBrain, Testbirds, UserFeel, UberTesters
+ (b)
+ + Survey Junkie, Banana Surveys, Magic Surveys, Swagbucks
+
+
+- Layout goals
+ * (Fontend)
+  + Selling beats, loops and sounds to music producers and artists in the music industry
+
+ * (Middle)
+  + I work as lead and solo software developer of the volume control computer vision python developer 
+  + The main part of the company that is advertised / marketed. 
+  + This will be how we represent ourselves
+
+ * (Backend)
+  + Software testing and Survey takers are the engine of the company 
+  + This is a private part of our company and will not be advertised.
+  + Generates revenue for the company 
+  + Testers should have linkedin cert Meta Cert or some sort of certification (We will offer free certifications and company computers)
+
+CEO: WillCatonJr
+CFO: WillCatonJr
+CTO: WillCatonJr
+
+Software Developer: WillCatonJr
+
+Social Media Marketing Director: WillCatonJr 
+
+Quality Assurance Team: 
+- Usability Tester: 14 = $40
+- Software Tester: 10 = $60
+- Quality Assurance Lead: 1 = $100 
+ + take the annual web hosting and Google business eamil and page costs out of the QAT's cut
+
+{$TesterTarget == WorkingGirl's Husbands}
+They will need 
+- USA VPN (or not)
+- 25 laptops $3000 @ around $100 a laptop 
+ + Use virtual box to install a macOS/iso file on the cheap $100 Asus windows laptops
+- Internet connection / Router 
+- Possible Uniforms for a spirit day or some bullshit insentive. (Custom T-Shirt)
+
+{$Marketing}
+* Use Insta-Bot to beef up Business IG Platform.
+* Automate instagram posts
+* Make 
+ + Facebook Business page, 
+ + Instagram Business page (Volume Control Extension), 
+ + Twitter
+ + Linkedin Business Page 
+ + Google Business Email / page
+ + Business Paypal account
+ + Youtube account (short film of Volume Control demo / With a browser based music production daw)
+ + Display an advertisment within the extension if it makes Ui/Ux sense 
+ + Get user data, almost like a trojan with the extension and sell that data to advertisers. (Needs to adhere to guidelines)
+ + Try to liscence the extension to bandlab and other browser based daws
+
+{$Misson}
+- Who are we?
++ Ai Software company that enables the user of a browser based daw to controls the output volume with computer vision via google chrome extension
++ install our Extension for free 
++ It's a free browser based music plugin with a freelance QA sweatshop as its backend 
+= Upgrade the extension annually, software performance upgrades, additional features, ui upgrades etc.
+
+
+
+
+
+Owner:
+- CEO / Developer = $200
+
+* UserTesting = $400 per month
+ + any residual income gets stored for a QAT bonus as an insentive
+ + QA Lead needs to be loyal to me and manage communication between QAT and Owner 
+ + 25 software Testers on QAT
+ + 1 QAL
+ + 1 CEO
+ + 25 testers at $400 a month == company revenue of 10k a month 
+ + 5k monthly split between CEO and QAT 
+
+
+{Tests}
+- Run Nav Tests 
+ * nav_iterator functions
+- Run download_link Tests
+
+{$ Manual Tests vs AutoTests}
+- Full Nav System
+ * AutoTest
+
+- Navigation without footer
+  * AutoTest
+
+- Content Testing 
+  * Manual Test 
+  * Play all of the audio files 
+  * Download all of the audio files
