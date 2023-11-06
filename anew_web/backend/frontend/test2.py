@@ -24,7 +24,7 @@ class webDriver:
         self.driver.maximize_window()
     def start_browser(self):
         try:
-            self.driver.get(localhost)
+            self.driver.get('http://127.0.0.1:8000/')
             print("Browser Activation")
         except pageNotFound as err:
             print(err,"Page Not Found")
