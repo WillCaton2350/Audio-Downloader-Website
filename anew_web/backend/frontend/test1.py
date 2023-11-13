@@ -49,12 +49,10 @@ class webDriver:
                         self.driver,
                         timeout=10).until(
                     EC.presence_of_element_located((
-                    By.XPATH,title_nav_xpath
-                    )))
+                    By.XPATH,title_nav_xpath)))
                 else: 
                     self.driver.find_element(
-                        By.XPATH,
-                    title_nav_xpath).click()
+                    By.XPATH,title_nav_xpath).click()
                     print('title nav clicked')
                     self.driver.implicitly_wait(3)
                 break
@@ -63,11 +61,9 @@ class webDriver:
                 self.driver,
                 timeout=10).until(
             EC.presence_of_element_located((
-            By.XPATH,drums_nav_xpath
-            )))
+            By.XPATH,drums_nav_xpath)))
             self.driver.find_element(
-                        By.XPATH,
-            drums_nav_xpath).click()
+            By.XPATH,drums_nav_xpath).click()
             print('drums nav clicked')
             self.driver.implicitly_wait(3)
             self.driver.back()
@@ -78,16 +74,13 @@ class webDriver:
                     By.XPATH,drums_nav_xpath):
                     print(err,"Element Not Found")
                     self.driver.implicitly_wait(3)
-                    WDW(
-                        self.driver,
-                        timeout=10).until(
+                    WDW(self.driver,
+                    timeout=10).until(
                     EC.presence_of_element_located((
-                    By.XPATH,drums_nav_xpath
-                    )))
+                    By.XPATH,drums_nav_xpath)))
                 else: 
                     self.driver.find_element(
-                        By.XPATH,
-                    drums_nav_xpath).click()
+                    By.XPATH,drums_nav_xpath).click()
                     print('drums nav clicked')
                     self.driver.implicitly_wait(3)
                     self.driver.back()
@@ -98,11 +91,9 @@ class webDriver:
                 self.driver,
                 timeout=10).until(
             EC.presence_of_element_located((
-            By.XPATH,bass_nav_xpath
-            )))
+            By.XPATH,bass_nav_xpath)))
             self.driver.find_element(
-                        By.XPATH,
-            bass_nav_xpath).click()
+            By.XPATH,bass_nav_xpath).click()
             print('bass nav clicked')
             self.driver.implicitly_wait(3)
             self.driver.back()
@@ -113,31 +104,25 @@ class webDriver:
                     By.XPATH,bass_nav_xpath):
                     print(err,"Element Not Found")
                     self.driver.implicitly_wait(3)
-                    WDW(
-                        self.driver,
-                        timeout=10).until(
+                    WDW(self.driver,
+                    timeout=10).until(
                     EC.presence_of_element_located((
-                    By.XPATH,bass_nav_xpath
-                    )))
+                    By.XPATH,bass_nav_xpath)))
                 else: 
                     self.driver.find_element(
-                        By.XPATH,
-                    bass_nav_xpath).click()
+                    By.XPATH,bass_nav_xpath).click()
                     print('bass nav clicked')
                     self.driver.implicitly_wait(3)
                     self.driver.back()
                     print('back selected')
                 break
         try:
-            WDW(
-                self.driver,
-                timeout=10).until(
+            WDW(self.driver,
+            timeout=10).until(
             EC.presence_of_element_located((
-            By.XPATH,vox_nav_xpath
-            )))
+            By.XPATH,vox_nav_xpath)))
             self.driver.find_element(
-                        By.XPATH,
-            vox_nav_xpath).click()
+            By.XPATH,vox_nav_xpath).click()
             print('vox nav clicked')
             self.driver.implicitly_wait(3)
             ###### SCROLL W/ JAVASCRIPT #######
@@ -151,23 +136,19 @@ class webDriver:
                     By.XPATH,vox_nav_xpath):
                     print(err,"Element Not Found")
                     self.driver.implicitly_wait(3)
-                    WDW(
-                        self.driver,
-                        timeout=10).until(
+                    WDW(self.driver,
+                    timeout=10).until(
                     EC.presence_of_element_located((
-                    By.XPATH,vox_nav_xpath
-                    )))
+                    By.XPATH,vox_nav_xpath)))
                 else: 
                     self.driver.find_element(
-                        By.XPATH,
-                    vox_nav_xpath).click()
+                    By.XPATH,vox_nav_xpath).click()
                     print('vox nav clicked')
                     self.driver.implicitly_wait(3)
                 break
         try:
-            WDW(
-                self.driver,
-                timeout=10).until(
+            WDW(self.driver,
+            timeout=10).until(
             EC.presence_of_element_located((
             By.CSS_SELECTOR,drums_nav2)))
             self.driver.find_element(
@@ -182,7 +163,7 @@ class webDriver:
                     print(err,"Element Not Found")
                     self.driver.implicitly_wait(3)
                     WDW(self.driver,
-                        timeout=10).until(
+                    timeout=10).until(
                     EC.presence_of_element_located((
                     By.CSS_SELECTOR,drums_nav2)))
                 else: 
@@ -195,11 +176,9 @@ class webDriver:
                 self.driver,
                 timeout=10).until(
             EC.presence_of_element_located((
-            By.CSS_SELECTOR,bass_nav2
-            )))
+            By.CSS_SELECTOR,bass_nav2)))
             self.driver.find_element(
-                        By.CSS_SELECTOR,
-            bass_nav2).click()
+            By.CSS_SELECTOR,bass_nav2).click()
             print('bass_nav2 clicked')
             self.driver.implicitly_wait(3)
         except ElementNotInteractableException as err:
@@ -208,16 +187,13 @@ class webDriver:
                     By.CSS_SELECTOR,bass_nav2):
                     print(err,"Element Not Found")
                     self.driver.implicitly_wait(3)
-                    WDW(
-                        self.driver,
-                        timeout=10).until(
+                    WDW(self.driver,
+                    timeout=10).until(
                     EC.presence_of_element_located((
-                    By.CSS_SELECTOR,bass_nav2
-                    )))
+                    By.CSS_SELECTOR,bass_nav2)))
                 else: 
                     self.driver.find_element(
-                        By.CSS_SELECTOR,
-                    bass_nav2).click()
+                    By.CSS_SELECTOR,bass_nav2).click()
                     print('bass_nav2 / else')
                     self.driver.implicitly_wait(3)
                 break
@@ -226,8 +202,7 @@ class webDriver:
                 self.driver,
                 timeout=10).until(
             EC.presence_of_element_located((
-            By.CSS_SELECTOR,vox_nav2
-            )))
+            By.CSS_SELECTOR,vox_nav2)))
             self.driver.find_element(
             By.CSS_SELECTOR,
             vox_nav2).click()
@@ -243,8 +218,7 @@ class webDriver:
                         self.driver,
                         timeout=10).until(
                     EC.presence_of_element_located((
-                    By.CSS_SELECTOR,vox_nav2
-                    )))
+                    By.CSS_SELECTOR,vox_nav2)))
                 else: 
                     self.driver.find_element(
                         By.CSS_SELECTOR,
@@ -257,8 +231,7 @@ class webDriver:
                 self.driver,
                 timeout=10).until(
             EC.presence_of_element_located((
-            By.CSS_SELECTOR,about_nav2
-            )))
+            By.CSS_SELECTOR,about_nav2)))
             self.driver.find_element(
             By.CSS_SELECTOR,
             about_nav2).click()
